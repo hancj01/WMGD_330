@@ -1,0 +1,68 @@
+.main-content-sidebar{
+    background-color: $dark-blue;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 1;
+    @include sm{
+        background-color: $pink2;
+    }
+    @include md{
+        background-color: $grey2;
+    }
+    @include lg{
+        background-color: $lettuce;
+    }
+}
+.main-content-body{
+    background-color: $grey;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 2;
+    @include sm{
+        background-color: $pink2;
+    }
+    @include md{
+        background-color: $grey2;
+    }
+    @include lg{
+        background-color: $lettuce;
+    }
+}
+.main-content-ads{
+    background-color: $red;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 1;
+    @include sm{
+     background-color: $pink2;
+    }
+    @include md{
+        background-color: $grey2;
+    }
+    @include lg{
+        background-color: $lettuce;
+    }
+}
+.main-content-author{
+    background-color: $purple;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 3;
+    @include sm{
+        background-color: $pink3
+    }
+    @include md{
+        background-color: $grey3;
+    }
+    @include lg{
+        background-color: $patty;
+    }
+}
