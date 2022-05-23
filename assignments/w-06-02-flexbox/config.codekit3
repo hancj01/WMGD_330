@@ -21,27 +21,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/craigslistlogo.jpg" : {
-      "ft" : 16384,
-      "iS" : 23727,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/craigslistlogo.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/favicon.ico" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/favicon.ico",
-      "oF" : 0
-    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -60,126 +39,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/designs\/Desktop HD.jpg" : {
-      "ft" : 16384,
-      "iS" : 3506585,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/designs\/Desktop HD.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/designs\/hero-2-desktop.jpg" : {
-      "ft" : 16384,
-      "iS" : 1047621,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/designs\/hero-2-desktop.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/designs\/hero-3-desktop copy.jpg" : {
-      "ft" : 16384,
-      "iS" : 219899,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/designs\/hero-3-desktop copy.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/designs\/hero-3.jpg" : {
-      "ft" : 16384,
-      "iS" : 229920,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/designs\/hero-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/designs\/hero-desktop.jpg" : {
-      "ft" : 16384,
-      "iS" : 1064629,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/designs\/hero-desktop.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/designs\/lifting.jpg" : {
-      "ft" : 16384,
-      "iS" : 15966,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/designs\/lifting.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/designs\/Mobile.jpg" : {
-      "ft" : 16384,
-      "iS" : 1396290,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/designs\/Mobile.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/designs\/Tablet.jpg" : {
-      "ft" : 16384,
-      "iS" : 1977092,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/designs\/Tablet.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/designs\/Web 2.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/designs\/Web 2.pdf",
-      "oF" : 0
-    },
-    "\/dev\/components\/header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/header.html",
-      "oF" : 0
     },
     "\/dev\/index.kit" : {
       "cB" : 0,
@@ -420,7 +279,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 607448965.33801401,
-    "displayValue" : "final",
+    "displayValue" : "w-06-02-flexbox",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-forest",
     "iconImageWasSetByUser" : 0

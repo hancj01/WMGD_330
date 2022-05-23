@@ -1,0 +1,25 @@
+.header{
+    background: $clouds;
+    padding-left: 19px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    width: 150px;
+    @include md{
+        width: 150px;
+    }
+}
+
+.header__link {
+    color:$black;
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    @include md{
+        font-size: 19.5px;
+
+    }
+}
