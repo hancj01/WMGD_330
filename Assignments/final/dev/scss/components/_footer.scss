@@ -1,0 +1,14 @@
+.footer{
+    background: $footer;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__link{
+    color:$white;
+    margin-left: 20px;
+    font-size: 11px;
+    text-decoration: none;
+    @include md{
+        font-size: 16px;}
+}
