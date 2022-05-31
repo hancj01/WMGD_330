@@ -21,6 +21,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/bedroom.jpg" : {
+      "ft" : 16384,
+      "iS" : 949239,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/bedroom.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/craigslistlogo.jpg" : {
       "ft" : 16384,
       "iS" : 23727,
@@ -173,6 +186,22 @@
       "oAP" : "\/designs\/Web 2.pdf",
       "oF" : 0
     },
+    "\/dev\/components\/ads.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/ads.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/ads.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/ads.html",
+      "oF" : 0
+    },
     "\/dev\/components\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -187,6 +216,38 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/listings.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/listings.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/listings.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/listings.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/ongoing-event.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/ongoing-event.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/whats-new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/whats-new.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -248,6 +309,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_typography.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_ads.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_ads.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -328,6 +404,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/components\/_listings.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_listings.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/components\/_main-content.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -353,6 +444,36 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_ongoing-event.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_ongoing-event.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_whats-new.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_whats-new.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

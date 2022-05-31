@@ -347,3 +347,40 @@ h1, h2, h3, h4, h5, h6 {
   @media (min-width: 768px) {
     .header__link {
       font-size: 19.5px; } }
+.footer {
+  background-color: #83479B;
+  justify-content: space-between;
+  align-items: center; }
+
+.footer__link {
+  color: #ffffff;
+  margin-left: 20px;
+  font-size: 11px;
+  text-decoration: none; }
+  @media (min-width: 768px) {
+    .footer__link {
+      font-size: 16px; } }
+.ad-one-title {
+  color: #4C0564; }
+
+.ad-one-image {
+  width: 202px; }
+
+.subgroup {
+  background: #4C0564;
+  display: flex;
+  text-align: center; }
+
+.subgroup__heading {
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px; }
+
+.article-block {
+  background: #4C0564;
+  color: #ffffff;
+  display: flex;
+  text-align: center; }
+
+.article-block__heading {
+  text-align: center; }
