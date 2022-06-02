@@ -368,14 +368,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .subgroup {
   background: #4C0564;
-  display: flex;
   text-align: center; }
 
 .subgroup__heading {
   color: #ffffff;
-  text-align: center;
-  font-size: 40px; }
-
+  font-size: 24px; }
+  @media (min-width: 768px) {
+    .subgroup__heading {
+      font-size: 40px; } }
+  @media (min-width: 992px) {
+    .subgroup__heading {
+      font-size: 70px; } }
 .article-block {
   background: #4C0564;
   color: #ffffff;
