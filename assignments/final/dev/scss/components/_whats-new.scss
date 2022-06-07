@@ -1,17 +1,47 @@
-.subgroup{
-    background: $grape;
+.subgroup {
+    background: white;
     text-align: center;
+    grid-template-columns: auto auto auto;
+
+    .image-1 {
+        padding: 30px;
+        padding-left: 70px;
+        background-color: $lavendar;
+        margin-top: 64px;
+        margin-right: 111px;
+        margin-bottom: 145px;
+    }
+
+    .image-2 {
+        padding: 30px;
+        background-color: $lavendar;
+        margin-top: 64px;
+        margin-right: 111px;
+        margin-bottom: 145px;
+    }
+
+    .image-3 {
+        padding: 30px;
+        padding-right: 118px;
+        background-color: $lavendar;
+        margin-right: 72px;
+        margin-bottom: 145px;
+    }
+
 }
-.subgroup__heading{
+
+.subgroup__heading {
+    background-color: $grape;
     color: $white;
     font-size: 24px;
-    @include md{
+
+    @include md {
 
         font-size: 40px;
     }
-    @include lg{
+
+    @include lg {
 
         font-size: 70px;
     }
 }
-

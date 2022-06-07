@@ -34,6 +34,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/camera.png" : {
+      "ft" : 32768,
+      "iS" : 63963,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/camera.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/craigslistlogo.jpg" : {
       "ft" : 16384,
       "iS" : 23727,
@@ -54,6 +67,71 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/favicon.ico",
       "oF" : 0
+    },
+    "\/deploy\/img\/kitchen.png" : {
+      "ft" : 32768,
+      "iS" : 79761,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/kitchen.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/meeting.png" : {
+      "ft" : 32768,
+      "iS" : 100807,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/meeting.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/model.png" : {
+      "ft" : 32768,
+      "iS" : 114261,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/model.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/speaker.png" : {
+      "ft" : 32768,
+      "iS" : 74080,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/speaker.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/truck.png" : {
+      "ft" : 32768,
+      "iS" : 84339,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/truck.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
