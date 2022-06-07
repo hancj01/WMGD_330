@@ -28,6 +28,12 @@
         margin-bottom: 145px;
     }
 
+    .image-4 {
+        margin-top: 60px;
+        margin-right: 192px;
+        margin-bottom: 140px;
+    }
+
 }
 
 .subgroup__heading {
@@ -43,5 +49,22 @@
     @include lg {
 
         font-size: 70px;
+    }
+
+}
+
+.subgroup_two__heading {
+    background-color: $lavendar;
+    color: $white;
+    font-size: 16px;
+
+    @include md {
+
+        font-size: 24px;
+    }
+
+    @include lg {
+
+        font-size: 50px;
     }
 }

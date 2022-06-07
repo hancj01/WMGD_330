@@ -389,6 +389,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #BF8ED2;
     margin-right: 72px;
     margin-bottom: 145px; }
+  .subgroup .image-4 {
+    margin-top: 60px;
+    margin-right: 192px;
+    margin-bottom: 140px; }
 
 .subgroup__heading {
   background-color: #4C0564;
@@ -400,6 +404,16 @@ h1, h2, h3, h4, h5, h6 {
   @media (min-width: 992px) {
     .subgroup__heading {
       font-size: 70px; } }
+.subgroup_two__heading {
+  background-color: #BF8ED2;
+  color: #ffffff;
+  font-size: 16px; }
+  @media (min-width: 768px) {
+    .subgroup_two__heading {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    .subgroup_two__heading {
+      font-size: 50px; } }
 .article-block {
   background: #4C0564;
   color: #ffffff;
