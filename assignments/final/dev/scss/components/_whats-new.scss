@@ -40,6 +40,7 @@
     background-color: $grape;
     color: $white;
     font-size: 24px;
+    text-align: center;
 
     @include md {
 
@@ -57,6 +58,7 @@
     background-color: $lavendar;
     color: $white;
     font-size: 16px;
+    padding-left: 20px;
 
     @include md {
 

@@ -397,7 +397,8 @@ h1, h2, h3, h4, h5, h6 {
 .subgroup__heading {
   background-color: #4C0564;
   color: #ffffff;
-  font-size: 24px; }
+  font-size: 24px;
+  text-align: center; }
   @media (min-width: 768px) {
     .subgroup__heading {
       font-size: 40px; } }
@@ -407,7 +408,8 @@ h1, h2, h3, h4, h5, h6 {
 .subgroup_two__heading {
   background-color: #BF8ED2;
   color: #ffffff;
-  font-size: 16px; }
+  font-size: 16px;
+  padding-left: 20px; }
   @media (min-width: 768px) {
     .subgroup_two__heading {
       font-size: 24px; } }
@@ -417,7 +419,6 @@ h1, h2, h3, h4, h5, h6 {
 .article-block {
   background: #4C0564;
   color: #ffffff;
-  display: flex;
   text-align: center; }
 
 .article-block__heading {
