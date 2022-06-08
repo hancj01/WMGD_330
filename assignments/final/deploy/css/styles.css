@@ -508,9 +508,10 @@ ul li {
 .faq_two__heading {
   background-color: #824995;
   color: #ffffff;
-  font-size: 16px;
-  padding-left: 20px;
-  margin-bottom: 50px; }
+  font-size: 24px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 8px; }
   @media (min-width: 768px) {
     .faq_two__heading {
       font-size: 24px; } }
@@ -523,53 +524,65 @@ ul li {
     flex-wrap: wrap; } }
 
 .faq-row-site-grid {
-  justify-content: right;
-  text-align: center; }
-
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 17px;
+  padding-right: 17px;
+  justify-content: space-around; }
+  @media (min-width: 768px) {
+    .faq-row-site-grid {
+      width: 50%;
+      padding-left: 100px; } }
 .faq-block {
-  justify-content: right;
-  padding: 20px; }
+  width: 40%; }
   @media (min-width: 768px) {
     .faq-block {
       flex-direction: column;
       width: 100%; } }
   .faq-block button {
+    width: 100%;
     border-style: none;
     border-radius: 5px;
-    padding: 5px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 8px 13px;
     background-color: #F4C345;
-    text-align: center; }
-    @media (min-width: 768px) {
-      .faq-block button {
-        flex-direction: column;
-        justify-content: right; } }
+    text-align: center;
+    margin-bottom: 24px; }
+
 form {
   border: 2px solid black;
   border-radius: 10px;
-  margin-left: 400px;
-  margin-right: 400px;
   color: black;
-  padding-top: 10px; }
+  padding: 12px;
+  width: 100%; }
   form input {
     border: 2px solid black;
     border-radius: 7px;
     font-family: 'inter';
     font-size: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
     color: black;
     padding-top: 5px;
-    padding-bottom: 5px; }
+    padding-bottom: 5px;
+    width: 100%; }
   form h4 {
     text-align: left;
     font-family: 'inter';
     font-size: 15px;
     font-weight: 400;
     color: black;
-    padding: 5px;
-    margin-left: 20px; }
+    margin-top: 12px; }
+
+.content {
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-bottom: 150px; }
+
+@media (min-width: 768px) {
+  .faq__content {
+    display: flex; } }
+
+@media (min-width: 768px) {
+  .left__column {
+    width: 50%; } }
 
 .popular {
   display: flex;
@@ -604,7 +617,8 @@ form {
   background-image: url("../img/thumbnail.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 25px; }
+  margin: 25px;
+  width: 100%; }
 
 .report-issue {
   background-color: #BF8ED2;

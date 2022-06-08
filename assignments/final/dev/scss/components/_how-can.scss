@@ -25,9 +25,10 @@
 .faq_two__heading {
     background-color: #824995;
     color: $white;
-    font-size: 16px;
-    padding-left: 20px;
-    margin-bottom: 50px;
+    font-size: 24px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
 
 
     @include md {
@@ -49,14 +50,20 @@
 }
 
 .faq-row-site-grid {
-    justify-content: right;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 17px;
+    padding-right: 17px;
+    justify-content: space-around;
+
+    @include md {
+        width: 50%;
+        padding-left: 100px;
+    }
 }
 
 .faq-block {
-
-    justify-content: right;
-    padding: 20px;
+    width: 40%;
 
     @include md {
         flex-direction: column;
@@ -64,19 +71,14 @@
     }
 
     button {
+        width: 100%;
         border-style: none;
         border-radius: 5px;
-        padding: 5px;
-        padding-left: 60px;
-        padding-right: 60px;
+        padding: 8px 13px;
         background-color: $lemon;
         text-align: center;
+        margin-bottom: 24px;
 
-        @include md {
-            flex-direction: column;
-            justify-content: right;
-
-        }
 
     }
 
@@ -85,23 +87,19 @@
 form {
     border: 2px solid black;
     border-radius: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
     color: black;
-    padding-top: 10px;
-
+    padding: 12px;
+    width: 100%;
 
     input {
         border: 2px solid black;
         border-radius: 7px;
         font-family: 'inter';
         font-size: 15px;
-        padding-left: 50px;
-        padding-right: 50px;
         color: black;
         padding-top: 5px;
         padding-bottom: 5px;
-
+        width: 100%
     }
 
     h4 {
@@ -110,8 +108,26 @@ form {
         font-size: 15px;
         font-weight: 400;
         color: black;
-        padding: 5px;
-        margin-left: 20px;
+        margin-top: 12px;
     }
 
+}
+
+.content {
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-bottom: 150px;
+}
+
+.faq__content {
+
+    @include md {
+        display: flex;
+    }
+}
+
+.left__column {
+    @include md {
+        width: 50%;
+    }
 }
