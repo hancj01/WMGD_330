@@ -1,10 +1,14 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .popular__heading {
-    background-color: $white;
     color: $grape;
     font-size: 24px;
     text-align: center;
-    padding: 20px;
-    padding-bottom: 100px;
+    line-height: 61px;
 
     @include md {
 
@@ -15,4 +19,28 @@
 
         font-size: 70px;
     }
+}
+
+.popular__dots {
+    width: 210.03px;
+    height: 42.01px;
+
+}
+
+.popular__middle {
+    display: flex;
+    align-items: center;
+}
+
+.popular__icons {
+    width: 75px;
+    height: 75px;
+}
+
+.popular__thumbnail {
+    padding: 200px 372px;
+    background-image: url('../img/thumbnail.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px;
 }
