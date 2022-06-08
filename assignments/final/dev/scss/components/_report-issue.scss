@@ -1,32 +1,115 @@
-.report-issue {
-    background-color: #BF8ED2;
-    color: #4C0564;
+.left__help {
+    background-color: $lavendar;
+    color: $grape;
+    text-align: center;
+    margin-top: 144px;
 
-    h4 {
-        font-family: 'inter';
-        font-weight: 300;
-
+    @include md {
+        width: 50%;
     }
 
-    .toolbar {
-        width: 200px;
+    padding: 13px 21px;
+
+    @include md {
+        padding: 72px 43px;
     }
 
-    form {
+    @include md {
+        margin-right: 48px;
+    }
+
+    @include lg {
+        margin-right: 107px;
+    }
+
+
+}
+
+h4 {
+    font-family: 'inter';
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.toolbar {
+    width: 200px;
+}
+
+.right__reporting {
+    border-style: none;
+
+    input {
         border-style: none;
-
-        input {
-            border-style: none;
-            padding-bottom: 50px;
-        }
-
-        button {
-            border-style: none;
-            background-color: $lemon;
-            padding: 20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin: 20px;
-        }
+        padding-bottom: 50px;
     }
+
+    button {
+        border-style: none;
+        background-color: $lemon;
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 20px;
+    }
+}
+
+.experience {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+}
+
+.emotion {
+    margin-left: 20px;
+    width: 170px;
+
+    @include md {
+        width: 188px
+    }
+
+    @include lg {
+        width: 222px
+    }
+}
+
+.need-report {
+    @include md {
+        display: flex
+    }
+}
+
+
+.report__heading {
+    background-color: $purple-heart;
+    color: $white;
+    font-size: 24px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 144px;
+
+    @include md {
+
+        font-size: 24px;
+        padding-left: 78px;
+        text-align: left;
+    }
+
+    @include lg {
+
+        font-size: 35px;
+    }
+}
+
+.submit-button {
+    align-items: right;
+}
+
+.report_box__submit {
+    justify-content: right;
 }
