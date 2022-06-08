@@ -1,9 +1,37 @@
-.subgroup {
+.listing-row {
+    @include md {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.listing-block {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+    @include md {
+        flex-direction: column;
+        width: 25%;
+    }
+
+    h4 {
+        text-align: left;
+        width: 100%;
+    }
 
     button {
         background-color: $lemon;
-        padding: 26px;
-        padding-left: 90px;
-        padding-right: 90px;
+        padding: 26px 90px;
+        min-width: 320px;
+
+        @include md {
+            flex-direction: column;
+            width: 25%;
+            min-width: auto;
+            width: 100%;
+        }
+
     }
+
 }

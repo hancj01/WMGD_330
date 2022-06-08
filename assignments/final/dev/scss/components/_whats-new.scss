@@ -7,30 +7,22 @@
         padding: 30px;
         padding-left: 70px;
         background-color: $lavendar;
-        margin-top: 64px;
-        margin-right: 111px;
-        margin-bottom: 145px;
     }
 
     .image-2 {
         padding: 30px;
         background-color: $lavendar;
-        margin-top: 64px;
-        margin-right: 111px;
-        margin-bottom: 145px;
     }
 
     .image-3 {
         padding: 30px;
         padding-right: 118px;
         background-color: $lavendar;
-        margin-right: 72px;
-        margin-bottom: 145px;
     }
 
     .image-4 {
         margin-top: 60px;
-        margin-right: 192px;
+        width: 80%;
         margin-bottom: 140px;
     }
 
@@ -54,19 +46,13 @@
 
 }
 
-.subgroup_two__heading {
-    background-color: $lavendar;
-    color: $white;
-    font-size: 16px;
-    padding-left: 20px;
 
+.whats_new__images {
     @include md {
 
-        font-size: 24px;
-    }
-
-    @include lg {
-
-        font-size: 50px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 64px;
+        margin-bottom: 144px;
     }
 }

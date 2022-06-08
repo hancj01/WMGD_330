@@ -1,0 +1,32 @@
+.report-issue {
+    background-color: #BF8ED2;
+    color: #4C0564;
+
+    h4 {
+        font-family: 'inter';
+        font-weight: 300;
+
+    }
+
+    .toolbar {
+        width: 200px;
+    }
+
+    form {
+        border-style: none;
+
+        input {
+            border-style: none;
+            padding-bottom: 50px;
+        }
+
+        button {
+            border-style: none;
+            background-color: $lemon;
+            padding: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 20px;
+        }
+    }
+}

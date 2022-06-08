@@ -1,0 +1,117 @@
+.faq {
+    background: white;
+    text-align: center;
+}
+
+.faq__heading {
+    background-color: $grape;
+    color: $white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+
+    @include md {
+
+        font-size: 40px;
+    }
+
+    @include lg {
+
+        font-size: 70px;
+    }
+
+}
+
+.faq_two__heading {
+    background-color: #824995;
+    color: $white;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+
+
+    @include md {
+
+        font-size: 24px;
+    }
+
+    @include lg {
+
+        font-size: 35px;
+    }
+}
+
+.faq-row {
+    @include md {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.faq-row-site-grid {
+    justify-content: right;
+    text-align: center;
+}
+
+.faq-block {
+
+    justify-content: right;
+    padding: 20px;
+
+    @include md {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    button {
+        border-style: none;
+        border-radius: 5px;
+        padding: 5px;
+        padding-left: 60px;
+        padding-right: 60px;
+        background-color: $lemon;
+        text-align: center;
+
+        @include md {
+            flex-direction: column;
+            justify-content: right;
+
+        }
+
+    }
+
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: black;
+    padding-top: 10px;
+
+
+    input {
+        border: 2px solid black;
+        border-radius: 7px;
+        font-family: 'inter';
+        font-size: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+
+    h4 {
+        text-align: left;
+        font-family: 'inter';
+        font-size: 15px;
+        font-weight: 400;
+        color: black;
+        padding: 5px;
+        margin-left: 20px;
+    }
+
+}

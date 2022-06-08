@@ -1,0 +1,64 @@
+.our-mission {
+    background: white;
+    text-align: center;
+}
+
+.mission__heading {
+    background-color: $grape;
+    color: $white;
+    font-size: 24px;
+    text-align: center;
+
+    @include md {
+
+        font-size: 40px;
+    }
+
+    @include lg {
+
+        font-size: 70px;
+    }
+
+}
+
+.mission-sub__heading {
+    background-color: $lavendar;
+    color: $white;
+    font-size: 16px;
+    padding-left: 20px;
+
+    @include md {
+
+        font-size: 24px;
+    }
+
+    @include lg {
+
+        font-size: 50px;
+    }
+}
+
+.mission__image {
+    .image-5 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    @include md {
+
+        display: flex;
+        margin-top: 64px;
+        margin-bottom: 144px;
+    }
+}
+
+ul {
+    li {
+        text-align: left;
+    }
+}
+
+.dots {
+    width: 0px;
+}
